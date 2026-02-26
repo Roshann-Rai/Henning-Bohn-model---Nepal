@@ -1,3 +1,5 @@
+setwd()
+# Libraries
 library(tidyverse)
 library(dplyr)
 library(mFilter)
@@ -6,9 +8,9 @@ library(lmtest)
 library(ggplot2)
 
 # Load Data
-gdp <- read.csv("data/gdp.csv")
-pb_finance <- read.csv("data/public_finance.csv")
-remittance <- read.csv("data/remittance.csv")
+gdp <- read.csv("gdp.csv")
+pb_finance <- read.csv("public_finance.csv")
+remittance <- read.csv("remittance.csv")
 str(gdp)
 str(pb_finance)
 str(remittance)
